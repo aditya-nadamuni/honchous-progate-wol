@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: cornflowerblue;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.logo {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    /* color: #0088a9; */
+    padding: 20px;
+    background-color: #0088a9;
+    border-radius: 50px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: cornflowerblue;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    color: cornflowerblue;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    padding: 0 20px;
+    font-weight: 100;
+    margin: 10px;
+    color: rgb(66, 66, 66);
+}
+
+em {
+    font-size: 15px;
+    font-weight: 200;
+    color: cornflowerblue;
+    padding: 0 10px;
+    margin: 20px;
+}
+
+section {
+    margin: 50px;
+}
+
+#gs-links li{
+    color: cornflowerblue;
+    font-size: 20px;
+    list-style: none;
+}
+
+#gs-links {
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+}
+
+#links li{
+    color: rgb(66, 66, 66);
+}
+
+#links li {
+    margin-left: 160px;
+    font-size: 20px;
+}
+
+#links a {
+    font-size: 30px;
+}
+
+#links p {
+    font-size: 25px;
+    margin: 20px 20px;
+    font-weight: 100;
+}
+
+#links p span, #links a {
+    color: cornflowerblue;
+}
+
+footer {
+    background-color: cornflowerblue;
+    border-radius: 60px 60px 0 0;
+}
+
+footer p {
+    padding: 30px;
+    text-align: center;
+    color: #edf0f1;
+}
+
+.dt {
+    text-align: center;
+    border: solid 1px cornflowerblue;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+
+.dt p {
+    color: #edf0f1;
+    font-weight: 100;
+}
